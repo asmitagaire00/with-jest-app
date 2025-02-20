@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <main>
-        <h1>About page</h1>
+        <h2>This is about page: /pages/home/about.tsx</h2>
         <Link href="/home">Go back</Link>
       </main>
     </div>

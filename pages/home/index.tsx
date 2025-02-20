@@ -1,17 +1,20 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@/pages/index.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <p className={styles.title}>testing next.js</p>
+        <div>
+          <Link href="/home/about">
+            <p>This is /pages/home/index.js</p>
+          </Link>
+        </div>
       </main>
     </div>
   );

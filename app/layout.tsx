@@ -5,6 +5,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* Layout UI */}
+      {/* Place children where you want to render a page or nested layout */}
+
       <body>{children}</body>
     </html>
   );
